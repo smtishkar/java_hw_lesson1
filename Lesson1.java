@@ -7,7 +7,7 @@ public class Lesson1 {
     private static Scanner input = new Scanner(System.in);
 
     public static void main(String[] args) {
-        int number = getNumber("Введите количество элементов ");
+        int number = getNumber("Введите число: ");
         int result = 0;
         for (int i = 1; i <= number; i++) {
             result = result + i;
